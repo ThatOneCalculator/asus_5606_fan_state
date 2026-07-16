@@ -66,7 +66,7 @@ sudo systemctl enable --now asus-fan-permissions.service
 
 ## Desktop/Programatic Integration
 
-If you happen to use <img src="https://camo.githubusercontent.com/bb29f107ac50e69cef7c56c2b98887a4fd75b5f5df818ebd549ddd152fea6683/68747470733a2f2f6173736574732e6e6f6374616c69612e6465762f6e6f6374616c69612d6c6f676f2e7376673f763d32" alt="Noctalia Logo" height="20"/> [Noctalia Shell](https://noctalia.dev), there's a [`fan_state` plugin](https://github.com/noctalia-dev/noctalia-plugins/tree/main/asus_um5606_fan_state).
+If you happen to use <img src="https://camo.githubusercontent.com/bb29f107ac50e69cef7c56c2b98887a4fd75b5f5df818ebd549ddd152fea6683/68747470733a2f2f6173736574732e6e6f6374616c69612e6465762f6e6f6374616c69612d6c6f676f2e7376673f763d32" alt="Noctalia Logo" height="20"/> [Noctalia Shell](https://noctalia.dev), there's a [`um5606_fan_state` plugin](https://noctalia.dev/plugins/community/um5606_fan_state).
 
 For your own integrations, to monitor the fan state, you can either:
 - Monitor the `$XDG_RUNTIME_DIR/fan_state` file
